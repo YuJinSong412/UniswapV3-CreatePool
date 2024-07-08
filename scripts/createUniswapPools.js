@@ -12,8 +12,8 @@ const ERC20_ABI = require("../artifacts/contracts/Token.sol/Token.json").abi;
 
 // WDS / YT
 async function main() {
-    var token0Address = "0xA8397BA296D6629c97e7c1d67a03E2520FF04b4e";
-    var token1Address = "0x85CafEfF4254900550386Ca575b2E417637d11EA";
+    var token0Address = "0xb04F915966301a484C684dC4728C46dbdcA8A829";
+    var token1Address = "0xf30f1c5A27622645CF46b5a6ABc4AB3a2Bf84235";
     // (0.05, 0.3, 1, 0.01)
     var fee = (0.3) * 10000;
     var token0Decimals = 18;
